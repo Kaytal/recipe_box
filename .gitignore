@@ -6,6 +6,7 @@
 
 # Ignore Environment COnfiguration Files
 config/database.yml
+config/env.yml
 .env
 
 # Ignore bundler config.
