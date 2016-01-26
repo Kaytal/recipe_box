@@ -12,7 +12,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
-gem 'aws-sdk-v1'
+gem 'aws-sdk', '~> 1.66', '>= 1.66.0'
 gem 'cocoon', '~> 1.2', '>= 1.2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
