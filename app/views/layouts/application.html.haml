@@ -2,14 +2,13 @@
 %html
 %head
 	%title Recipe Box
-	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false
+	= javascript_include_tag 'application', 'data-turbolinks-track' => false
 	= csrf_meta_tags
 %body
 	%nav.navbar.navbar-default
 		.container
 			.navbar-brand= link_to "Recipe Box", root_path
-			%p= ENV["PASSWORD"]
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right
 					%li= link_to "New Recipe", new_recipe_path
